@@ -54,8 +54,8 @@ offers:
           description: Dedicated Solutions Architect
           kind: other
       consideration:
-        kind: variable
-        description: The Startup Tier is offered at 50% off for six months.
+        kind: unknown
+        description: The source record did not establish separate consideration.
     eligibility:
       rule:
         kind: all
