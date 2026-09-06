@@ -57,7 +57,7 @@ offers:
           kind: other
       consideration:
         kind: variable
-        description: Startup Tier pricing starts at $73 per 1 GB per month before the program discount.
+        description: The Startup plan is priced from $73 per 1 GB per month.
     eligibility:
       rule:
         kind: all
