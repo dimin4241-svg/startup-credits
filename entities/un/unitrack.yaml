@@ -45,8 +45,7 @@ offers:
           kind: free-service
           service: UniTrack Startup Launchpad
       consideration:
-        kind: unknown
-        description: The public Startup Launchpad page does not state separate consideration.
+        kind: none
     eligibility:
       rule:
         kind: manual
