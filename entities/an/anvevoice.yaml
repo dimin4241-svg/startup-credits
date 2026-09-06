@@ -19,6 +19,8 @@ sources:
     url: https://anvevoice.app/startups
   - source_id: src_89cc441d328586b2fd9924ba1b6d5eccf7991cdc8fb454d21c673bb89272523c
     url: https://anvevoice.app/llms.txt
+  - source_id: src_141f878fc5a13aca332edf211df02ae786f740c2bd1ad961653bd4ff8ac4745f
+    url: https://anvevoice.app/pricing
 programs:
   - program_id: prg_01m16y0htr5e7atav28vycxxpe
     program_slug: anvevoice-for-startups
@@ -56,8 +58,8 @@ offers:
             kind: exact
             basis_points: 5000
       consideration:
-        kind: unknown
-        description: The source record did not establish separate consideration.
+        kind: variable
+        description: During the six-month discount period, participants pay half of the selected plan's published price.
     eligibility:
       rule:
         criterion_id: cri_01
@@ -75,3 +77,4 @@ offers:
     source_ids:
       - src_324ec1242dab6d5ba4cf29562b87373262255f1c2f09fc7cc47de3c5407e8a15
       - src_89cc441d328586b2fd9924ba1b6d5eccf7991cdc8fb454d21c673bb89272523c
+      - src_141f878fc5a13aca332edf211df02ae786f740c2bd1ad961653bd4ff8ac4745f
