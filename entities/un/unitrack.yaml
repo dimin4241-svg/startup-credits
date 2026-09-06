@@ -49,20 +49,10 @@ offers:
         description: The public Startup Launchpad page does not state separate consideration.
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            fact: company.employee_count
-            kind: predicate
-            operator: lte
-            statement: The startup must have no more than 10 employees.
-            value:
-              type: number
-              value: 10
-          - criterion_id: cri_02
-            kind: manual
-            statement: The applicant must be an early-stage startup, from idea or MVP through early revenue and up to Series A.
-            reason: external-verification
+        kind: manual
+        criterion_id: cri_01
+        statement: Early-stage startups with up to 10 employees can apply.
+        reason: vendor-discretion
     roles:
       terms_authority_entity_id: ent_01m16y9dyrbmh65k0n6rk7qq8q
       access_operator_entity_id: ent_01m16y9dyrbmh65k0n6rk7qq8q
