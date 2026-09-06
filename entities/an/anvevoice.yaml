@@ -17,6 +17,8 @@ profile:
 sources:
   - source_id: src_324ec1242dab6d5ba4cf29562b87373262255f1c2f09fc7cc47de3c5407e8a15
     url: https://anvevoice.app/startups
+  - source_id: src_32c9f7fc29e51514637d352aa9afdec6a75b3edda331114683fb79c629aac517
+    url: https://app.anvevoice.app/auth?mode=sign-up
 programs:
   - program_id: prg_01m16y0htr5e7atav28vycxxpe
     program_slug: anvevoice-for-startups
@@ -55,7 +57,7 @@ offers:
             basis_points: 5000
       consideration:
         kind: variable
-        description: 50% off 6 months on all plans
+        description: Growth is listed at $39/month before the startup discount.
     eligibility:
       rule:
         criterion_id: cri_01
@@ -67,8 +69,9 @@ offers:
       access_operator_entity_id: ent_01m16y0htnnsq1kmzac26dgkzh
     access:
       availability: public
-      instructions: Use the Get Started Free sign-up link on the public startup page.
-      method: other
-      url: https://anvevoice.app/startups
+      instructions: Use the Get Started Free sign-up form.
+      method: form
+      url: https://app.anvevoice.app/auth?mode=sign-up
     source_ids:
       - src_324ec1242dab6d5ba4cf29562b87373262255f1c2f09fc7cc47de3c5407e8a15
+      - src_32c9f7fc29e51514637d352aa9afdec6a75b3edda331114683fb79c629aac517
