@@ -39,7 +39,7 @@ offers:
       benefits:
         - benefit_id: ben_01
           applies_to: FalkorDB Startup Tier
-          description: 50% off the FalkorDB Startup Tier for six months
+          description: 50% Off Startup Tier (6 Months)
           duration:
             kind: exact
             value: P6M
@@ -48,14 +48,14 @@ offers:
             kind: exact
             basis_points: 5000
         - benefit_id: ben_02
-          description: Enterprise features are included on every tier
+          description: Enterprise Features on all Tiers
           kind: other
         - benefit_id: ben_03
-          description: Guidance from a dedicated FalkorDB solutions architect
+          description: Dedicated Solutions Architect
           kind: other
       consideration:
-        kind: unknown
-        description: The public Startup Program page does not state separate consideration.
+        kind: variable
+        description: 50% Off Startup Tier (6 Months)
     eligibility:
       rule:
         kind: all
