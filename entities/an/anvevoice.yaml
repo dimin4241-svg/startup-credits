@@ -59,7 +59,7 @@ offers:
             basis_points: 5000
       consideration:
         kind: variable
-        description: During the six-month discount period, participants pay half of the selected plan's published price.
+        description: Growth is $39 per month, Scale is $129 per month, and Enterprise pricing is custom.
     eligibility:
       rule:
         criterion_id: cri_01
