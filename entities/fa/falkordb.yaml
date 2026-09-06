@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          applies_to: FalkorDB Startup Tier
+          applies_to: Startup Tier
           description: 50% Off Startup Tier (6 Months)
           duration:
             kind: exact
@@ -55,7 +55,7 @@ offers:
           kind: other
       consideration:
         kind: variable
-        description: 50% Off Startup Tier (6 Months)
+        description: The Startup Tier is offered at 50% off for six months.
     eligibility:
       rule:
         kind: all
