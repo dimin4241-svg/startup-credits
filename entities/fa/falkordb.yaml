@@ -19,6 +19,8 @@ sources:
     url: https://www.falkordb.com/startup-program/
   - source_id: src_53527cc9d489b160eb693a2a4655e219a78d0c05683c2fe0b133ba070105d064
     url: https://www.falkordb.com/plans/
+  - source_id: src_ba0d94c036a19a448900f20dbe9fb9987f33408da69ddafe589e002789a6e5c5
+    url: https://www.falkordb.com/blog/ai-agent-memory-retrieval-architecture/
 programs:
   - program_id: prg_01m16y9dyr3a3x6a3c7tka5pba
     program_slug: falkordb-startup-program
@@ -57,7 +59,7 @@ offers:
           kind: other
       consideration:
         kind: variable
-        description: The Startup plan is priced from $73 per 1 GB per month.
+        description: The Startup tier starts at $73 per month for 1 GB.
     eligibility:
       rule:
         kind: all
@@ -97,3 +99,4 @@ offers:
     source_ids:
       - src_90e1646168b9e8e88ef8256b64b2b0f6a58672d60285651b9fed1b88ec1fca83
       - src_53527cc9d489b160eb693a2a4655e219a78d0c05683c2fe0b133ba070105d064
+      - src_ba0d94c036a19a448900f20dbe9fb9987f33408da69ddafe589e002789a6e5c5
