@@ -11,6 +11,7 @@ entity:
   category: databases
 profile:
   description: FalkorDB develops an open-source graph database and GraphRAG tools for building knowledge graph and agentic AI applications.
+  summary: FalkorDB develops a graph database and GraphRAG tools for teams building knowledge-graph and agentic-AI applications.
   links:
     site: https://www.falkordb.com
 sources:
@@ -53,8 +54,8 @@ offers:
           description: Guidance from a dedicated FalkorDB solutions architect
           kind: other
       consideration:
-        kind: variable
-        description: The startup pays half the regular price of the FalkorDB Startup Tier during the six-month discount period.
+        kind: unknown
+        description: The public Startup Program page does not state separate consideration.
     eligibility:
       rule:
         kind: all
