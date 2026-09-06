@@ -17,6 +17,8 @@ profile:
 sources:
   - source_id: src_90e1646168b9e8e88ef8256b64b2b0f6a58672d60285651b9fed1b88ec1fca83
     url: https://www.falkordb.com/startup-program/
+  - source_id: src_53527cc9d489b160eb693a2a4655e219a78d0c05683c2fe0b133ba070105d064
+    url: https://www.falkordb.com/plans/
 programs:
   - program_id: prg_01m16y9dyr3a3x6a3c7tka5pba
     program_slug: falkordb-startup-program
@@ -54,8 +56,8 @@ offers:
           description: Dedicated Solutions Architect
           kind: other
       consideration:
-        kind: unknown
-        description: The source record did not establish separate consideration.
+        kind: variable
+        description: Startup Tier pricing starts at $73 per 1 GB per month before the program discount.
     eligibility:
       rule:
         kind: all
@@ -94,3 +96,4 @@ offers:
       url: https://www.falkordb.com/startup-program/
     source_ids:
       - src_90e1646168b9e8e88ef8256b64b2b0f6a58672d60285651b9fed1b88ec1fca83
+      - src_53527cc9d489b160eb693a2a4655e219a78d0c05683c2fe0b133ba070105d064
