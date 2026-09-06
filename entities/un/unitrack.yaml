@@ -38,20 +38,20 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Three months of free access to the UniTrack Startup Launchpad
+          description: Free access to UniTrack for three months
           duration:
             kind: exact
             value: P3M
           kind: free-service
-          service: UniTrack Startup Launchpad
+          service: UniTrack
       consideration:
         kind: none
     eligibility:
       rule:
         kind: manual
         criterion_id: cri_01
-        statement: Early-stage startups with up to 10 employees can apply.
-        reason: vendor-discretion
+        statement: Any early-stage startup with up to 10 employees is eligible.
+        reason: not-machine-evaluable
     roles:
       terms_authority_entity_id: ent_01m16y9dyrbmh65k0n6rk7qq8q
       access_operator_entity_id: ent_01m16y9dyrbmh65k0n6rk7qq8q
