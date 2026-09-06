@@ -17,8 +17,8 @@ profile:
 sources:
   - source_id: src_324ec1242dab6d5ba4cf29562b87373262255f1c2f09fc7cc47de3c5407e8a15
     url: https://anvevoice.app/startups
-  - source_id: src_32c9f7fc29e51514637d352aa9afdec6a75b3edda331114683fb79c629aac517
-    url: https://app.anvevoice.app/auth
+  - source_id: src_89cc441d328586b2fd9924ba1b6d5eccf7991cdc8fb454d21c673bb89272523c
+    url: https://anvevoice.app/llms.txt
 programs:
   - program_id: prg_01m16y0htr5e7atav28vycxxpe
     program_slug: anvevoice-for-startups
@@ -56,22 +56,22 @@ offers:
             kind: exact
             basis_points: 5000
       consideration:
-        kind: variable
-        description: Growth is listed at $39/month before the startup discount.
+        kind: unknown
+        description: The source record did not establish separate consideration.
     eligibility:
       rule:
         criterion_id: cri_01
         kind: manual
-        statement: Qualifying startups can apply.
-        reason: vendor-discretion
+        statement: Eligible startups were founded within the last three years, have under $5 million in annual revenue, have fewer than 50 employees, and have a live website.
+        reason: not-machine-evaluable
     roles:
       terms_authority_entity_id: ent_01m16y0htnnsq1kmzac26dgkzh
       access_operator_entity_id: ent_01m16y0htnnsq1kmzac26dgkzh
     access:
       availability: public
-      instructions: Use the Get Started Free sign-up form.
+      instructions: Apply at the official AnveVoice for Startups page.
       method: form
-      url: https://app.anvevoice.app/auth
+      url: https://anvevoice.app/startups
     source_ids:
       - src_324ec1242dab6d5ba4cf29562b87373262255f1c2f09fc7cc47de3c5407e8a15
-      - src_32c9f7fc29e51514637d352aa9afdec6a75b3edda331114683fb79c629aac517
+      - src_89cc441d328586b2fd9924ba1b6d5eccf7991cdc8fb454d21c673bb89272523c
