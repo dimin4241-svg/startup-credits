@@ -11,6 +11,7 @@ entity:
   category: ai-ml
 profile:
   description: AnveVoice provides embeddable voice AI agents and speech APIs for websites, including multilingual conversations and on-page actions.
+  summary: AnveVoice provides embeddable voice AI agents and speech APIs that help websites handle multilingual conversations and on-page workflows.
   links:
     site: https://anvevoice.app
 sources:
@@ -37,14 +38,14 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Three months of free access to the AnveVoice Growth plan
+          description: Three months free on AnveVoice Growth
           duration:
             kind: exact
             value: P3M
           kind: free-service
-          service: AnveVoice Growth plan
+          service: AnveVoice Growth
         - benefit_id: ben_02
-          description: 50% off any AnveVoice plan for the following six months
+          description: 50% off all AnveVoice plans for six months
           duration:
             kind: exact
             value: P6M
@@ -53,8 +54,8 @@ offers:
             kind: exact
             basis_points: 5000
       consideration:
-        kind: variable
-        description: During the six-month discount period, the startup pays half the regular price of its selected AnveVoice plan.
+        kind: unknown
+        description: The public startup page does not state separate consideration.
     eligibility:
       rule:
         criterion_id: cri_01
@@ -66,8 +67,7 @@ offers:
       access_operator_entity_id: ent_01m16y0htnnsq1kmzac26dgkzh
     access:
       availability: public
-      instructions: Follow the sign-up link on the official startup program page and submit the requested company details for review.
-      method: form
+      method: other
       url: https://anvevoice.app/startups
     source_ids:
       - src_324ec1242dab6d5ba4cf29562b87373262255f1c2f09fc7cc47de3c5407e8a15
