@@ -11,6 +11,7 @@ entity:
   category: productivity
 profile:
   description: UniTrack provides an integrated workspace for team chat, task management, HR, invoicing, CRM, documents, and business operations.
+  summary: UniTrack is a business operations platform that helps startups manage teams, work, finance, and customer workflows in one workspace.
   links:
     site: https://unitrack.ai
 sources:
@@ -37,14 +38,15 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Three months of free access to the UniTrack Startup Launchpad for a team of up to 10 employees
+          description: Three months of free access to the UniTrack Startup Launchpad
           duration:
             kind: exact
             value: P3M
           kind: free-service
           service: UniTrack Startup Launchpad
       consideration:
-        kind: none
+        kind: unknown
+        description: The public Startup Launchpad page does not state separate consideration.
     eligibility:
       rule:
         kind: all
