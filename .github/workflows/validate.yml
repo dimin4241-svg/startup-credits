@@ -106,7 +106,7 @@ jobs:
           jq -e \
             --arg release_id "$live_parent_release_id" \
             '.release_id == $release_id
-             and .data.query.live_parent_release_id == $release_id' \
+             and .data.query.liveParentReleaseId == $release_id' \
             "$RUNNER_TEMP/sourcey-identity-response.json" >/dev/null
           jq -e '.data' "$RUNNER_TEMP/sourcey-identity-response.json" \
             > "$RUNNER_TEMP/sourcey-identity-context.json"
@@ -163,9 +163,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           HEAD_REVISION: ${{ github.event.pull_request.head.sha }}
           BASE_REVISION: ${{ github.event.pull_request.base.sha }}
-          PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
           VALIDATION_CONCLUSION: ${{ job.status == 'success' && 'success' || 'failure' }}
-          VALIDATION_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           verifier_digest="$(<trusted/.github/sourcey-catalog-verifier.sha256)"
           [[ "$verifier_digest" =~ ^[a-f0-9]{64}$ ]]
@@ -195,12 +193,10 @@ jobs:
             --arg status completed \
             --arg conclusion "$VALIDATION_CONCLUSION" \
             --arg external_id "$external_id" \
-            --arg details_url "$VALIDATION_URL" \
             --arg title "Sourcey Catalog validation $VALIDATION_CONCLUSION" \
             --arg summary "Trusted changed-closure, signed identity-context, and DCO validation for the exact candidate head." \
             '{name: $name, head_sha: $head_sha, status: $status,
               conclusion: $conclusion, external_id: $external_id,
-              details_url: $details_url,
               output: {title: $title, summary: $summary}}' > "$body"
           if [[ "${#existing_ids[@]}" -eq 1 ]]; then
             jq 'del(.head_sha)' "$body" > "$body.patch"
@@ -218,13 +214,14 @@ jobs:
             --arg head_sha "$HEAD_REVISION" \
             --arg conclusion "$VALIDATION_CONCLUSION" \
             --arg external_id "$external_id" \
-            --arg details_url "$VALIDATION_URL" \
+            --arg details_url "https://github.com/${GITHUB_REPOSITORY}/runs/${check_id}" \
             '.name == "sourcey/validation"
              and .head_sha == $head_sha
              and .status == "completed"
              and .conclusion == $conclusion
              and .external_id == $external_id
              and .details_url == $details_url
+             and .html_url == $details_url
              and .app.slug == "github-actions"' \
             "$RUNNER_TEMP/sourcey-validation-readback.json" >/dev/null
       - name: Publish the exact Sourcey validation result
