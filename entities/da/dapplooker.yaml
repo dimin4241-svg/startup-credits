@@ -10,7 +10,8 @@ entity:
       valid_from: 2026-08-29T14:07:21.947Z
   category: data-analytics
 profile:
-  description: DappLooker provides blockchain analytics, dashboards, data APIs, and data infrastructure for Web3 teams and applications.
+  summary: DappLooker provides blockchain analytics, customizable dashboards, and real-time data visualization for Web3 projects.
+  description: DappLooker provides blockchain analytics, customizable dashboards, and real-time data visualization for Web3 projects.
   links:
     site: https://dapplooker.com
 sources:
@@ -30,7 +31,7 @@ offers:
     offer_slug: free-platform-access-and-startup-grants
     offer_slug_aliases: []
     title: Up to six months of DappLooker and access to startup grants
-    summary: Eligible startups building on DappLooker partner networks receive up to six months of free platform access, access to grants worth up to $50,000, and partner resources.
+    summary: Eligible startups building on DappLooker partner networks can receive up to six months of free platform access, access to grants worth up to $50,000, and partner resources.
     lifecycle:
       status: active
       effective_from: 2026-08-29T14:07:21.947Z
